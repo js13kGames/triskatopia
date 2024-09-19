@@ -4,7 +4,7 @@ export function addFireworks() {
 
   const geometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
 
-  const blurTexture = textureLoader.load('media/blurPic.png');
+
   blurTexture.minFilter = THREE.NearestFilter;
   blurTexture.magFilter = THREE.LinearFilter;
 

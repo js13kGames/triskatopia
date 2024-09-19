@@ -1,6 +1,6 @@
 export function addParticles(){
 
-const particleTexture = textureLoader.load('./media/1.png');
+
 
 const count =300;
 const positions = new Float32Array(count * 3)

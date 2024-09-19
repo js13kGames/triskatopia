@@ -64,6 +64,22 @@ export const clock = new THREE.Clock();
 
 export const textureLoader = new THREE.TextureLoader();
 
+  export const particleTexture = textureLoader.load(
+    './media/1.png',
+     function (texture){console.log(texture)},
+     undefined,
+     function ( err ) {console.error( 'An error happened.', err )}
+    
+    );
+
+export const blurTexture = textureLoader.load(
+    './media/blurPic.png', 
+    function (texture){console.log(texture)},
+    undefined,
+    function ( err ) {console.error( 'An error happened.', err )}
+
+);
+
 
 let baseReferenceSpace;
 
